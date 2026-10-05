@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="imgui">
+      <UniqueIdentifier>{decc6393-aa15-4eaf-8cd4-863551cd0986}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="clicker">
+      <UniqueIdentifier>{9eccf388-2719-4f47-b0d9-26b4ed4125a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="keybind">
+      <UniqueIdentifier>{af389c92-d79c-4671-9f46-b002e1de6ffa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="style">
+      <UniqueIdentifier>{3821f2ef-e069-457d-af22-eb73a01b8eb2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="meowdesktop">
+      <UniqueIdentifier>{18536c70-50a9-42f4-a14c-68cebe5907ed}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="imgui\imconfig.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui_impl_dx11.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui_impl_win32.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui_internal.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imstb_rectpack.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imstb_textedit.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imstb_truetype.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="clicker\clicker.hpp">
+      <Filter>clicker</Filter>
+    </ClInclude>
+    <ClInclude Include="keybind\keybind.hpp">
+      <Filter>keybind</Filter>
+    </ClInclude>
+    <ClInclude Include="style\icons.h">
+      <Filter>style</Filter>
+    </ClInclude>
+    <ClInclude Include="style\style.h">
+      <Filter>style</Filter>
+    </ClInclude>
+    <ClInclude Include="meowdesktop\main.hpp">
+      <Filter>meowdesktop</Filter>
+    </ClInclude>
+    <ClInclude Include="style\particles.h">
+      <Filter>style</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="imgui\imgui.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_demo.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_draw.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_impl_dx11.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_impl_win32.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_tables.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_widgets.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="clicker\clicker.cpp">
+      <Filter>clicker</Filter>
+    </ClCompile>
+    <ClCompile Include="keybind\keybind.cpp">
+      <Filter>keybind</Filter>
+    </ClCompile>
+    <ClCompile Include="style\style.cpp">
+      <Filter>style</Filter>
+    </ClCompile>
+    <ClCompile Include="meowdesktop\main.cpp">
+      <Filter>meowdesktop</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
